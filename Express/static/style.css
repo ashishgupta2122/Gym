@@ -1,0 +1,74 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body ::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url('https://media.istockphoto.com/photos/zilhouette-exerccise-studio-picture-id849413034?k=20&m=849413034&s=612x612&w=0&h=v-BTw6U42leqE5s_oHlpCmm4tMHSCYGogTj-s2UUre0=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    background-color: #ff5722;
+    font-size: 23px;
+    padding: 36px 0px;
+    display: flex;
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    padding: 10px 34px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+.container{
+    margin: 35px auto;
+    max-width: 70%;
+}
+input,textarea{
+    display: block;
+    padding: 16px;
+    margin: 78px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 43px;
+}
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: #302d2d;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}

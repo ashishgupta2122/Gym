@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Set Date</title>
+    <style>
+        .container{
+            border: 8px solid black;
+            margin: 12px;
+            padding: 15px;
+            text-align: center;
+            font-size: 86px;
+            font-weight: bold;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        current time is <span id="time"></span>
+    </div>
+
+    <script>
+        console.log("This is Date and time tutorial");
+        let now = new Date();
+        console.log(now);
+
+        let dt = new Date(10000);
+        console.log(dt);
+
+        let newDate = new Date(2030,9,29,12,0,00,2);
+        console.log(newDate);
+
+        let yr = newDate.getFullYear();
+        console.log("The Year is ", yr);
+
+        let month = newDate.getMonth();
+        console.log("The Month is ",month);
+
+        let dat = newDate.getDate();
+        console.log("The Date is ",dat);
+
+        newDate.setDate(39);
+        newDate.setMinutes(24);
+        console.log(newDate)
+        setInterval(updateTime,1000);
+
+        function updateTime(){
+            time.innerHTML = new Date();
+        }
+        //console.log(setSeconds);
+    </script>
+</body>
+</html>

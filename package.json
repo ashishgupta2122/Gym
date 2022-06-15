@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "pug": "^3.0.2"
+  },
+  "name": "ashish.html",
+  "version": "1.0.0",
+  "main": "12.js",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "nodemon": "nodemon index.js"
+  },
+  "author": "Ashish Gupta",
+  "license": "ISC",
+  "description": ""
+}
